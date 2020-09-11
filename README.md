@@ -24,7 +24,7 @@ _Note: If you want to create a new channel click on the **+** next to **Channels
 
 ### Create an Incoming Webhook in Slack API 
 
-1. Go to your Slack API(https://api.slack.com).  
+1. Go to your [Slack API](https://api.slack.com).  
 2. Click **Start Building**.  
 3. Click on **Create Your Slack App** button. 
 4.  Click on **Create New App** button. 
