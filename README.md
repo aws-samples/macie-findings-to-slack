@@ -2,7 +2,7 @@
 
 This solution explore patterns to responde Macie findings via a notification workshow using Amazon EventBridge, AWS Lambda and Slack.
 
-We will setup a Event Rule that will send the details of a Macie Finding to a Lambda function that will format the message and then post into our demo Slack Sensitive Data Classification channel.
+We will setup a Event Rule that will send the details of a Macie Finding to a Lambda function that will format the message and then post into our demo Slack Data Classification channel.
 
 ### Solution Overview
 
@@ -14,13 +14,13 @@ We will setup a Event Rule that will send the details of a Macie Finding to a La
 1. Use the following link to create a new Slack Workspace for yourself:  
 https://get.slack.help/hc/en-us/articles/206845317-Create-a-Slack-workspace 
  
-_Note After completing these steps, you should have a slack workspace with a name you used to create it. Keep this information handy._
+_Note: After completing these steps, you should have a slack workspace with a name you used to create it. Keep this information handy._
 
 ### Create a channel to receive Macie Findings
 
 When you created the Slack workspace, you would have typed in something under “What is your Company doing?”. This sets up a default channel on Slack. You can choose to use this to receive Macie findings or create a new channel.
 
-_Note If you want to create a new channel click on the **+** next to **Channels** and create a new channel._
+_Note: If you want to create a new channel click on the **+** next to **Channels** and create a new channel._
 
 ### Create an Incoming Webhook in Slack API 
 
